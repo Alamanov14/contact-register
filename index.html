@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Создать 4 инпута(name, email, imageUrl, phone)
+
+      <!-- Commet for giHub -->
+
+    -Реализовать весь функционал CRUD: ---Create (Создание контакта) ---Read
+    (Вывести список контактов) ---Update (Сделать редактирование) ---Delete
+    (Сделать удаление) (данные должны храниться в localStorage) -->
+    <div class="conteiner">
+      <div class="wrapper">
+        <div class="auth-form">
+          <div class="field">
+            <input type="text" id="inp-name" placeholder="name" />
+            <input type="text" id="inp-email" placeholder="email" />
+            <input type="text" id="inp-img" placeholder="imageUrl" />
+            <input type="text" id="inp-phone" placeholder="phone" />
+          </div>
+          <div>
+            <button id="save">Save</button>
+            <button id="delete">delete</button>
+          </div>
+
+          <div class="main-modal">
+            <div class="inner-modal">
+              <div class="close">
+                <button class="btn-closer">X</button>
+              </div>
+              <input type="text" class="inp-edit-1" placeholder="name" />
+              <input type="text" class="inp-edit-2" placeholder="mail" />
+              <input type="text" class="inp-edit-3" placeholder="img" />
+              <input type="text" class="inp-edit-4" placeholder="phone" />
+              <button class="save-modal">save-edit</button>
+            </div>
+          </div>
+        </div>
+        <div class="conteiner">
+          <ul class="resWindow">
+            Результат действий
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./task2.js"></script>
+  </body>
+</html>
